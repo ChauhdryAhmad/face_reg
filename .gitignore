@@ -1,0 +1,4 @@
+snapshots/
+faces_db/
+.dist/
+__pycache__/
