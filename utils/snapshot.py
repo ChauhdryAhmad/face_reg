@@ -27,7 +27,7 @@ def save_snapshot(frame,bbox,identity,failiure,reason):
 
 def save_track_snapshot(prev_frame, frame, prev_bbox, bbox, identity):
     
-    if prev_bbox is None or bbox is None:
+    if prev_frame is None or frame is None or prev_bbox is None or bbox is None:
         return
 
     folder = f"snapshots/tracks/{identity}"

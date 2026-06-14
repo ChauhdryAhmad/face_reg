@@ -10,6 +10,12 @@ FIELDS = [
 "recognition_score",
 "recognition_status",
 
+"face_score",
+"person_score",
+"fused_score",
+"cumulative_identity_score",
+"person_bbox",
+
 "recognition_correct_by_tracker",
 
 "snapshot_path",

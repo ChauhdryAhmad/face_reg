@@ -49,8 +49,6 @@ class FaceRecognizer:
                 enforce_detection=False
             )
 
-            print(f"Extracted {len(result)} faces from the given image for embedding.")
-
             if len(result) == 0:
                 return None
 

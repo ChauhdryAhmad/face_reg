@@ -4,12 +4,12 @@ class RetinaFaceDetector:
 
     def detect(self, frame):
 
-        detections = RetinaFace.detect_faces(frame)
+        detections = RetinaFace.detect_faces(frame, threshold=0.05)
         results = []
 
         if not detections:
             print("Not Detected")
-            return None
+            return results
 
         for _, d in detections.items():
 

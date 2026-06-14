@@ -4,3 +4,5 @@ faces_db/
 __pycache__/
 env/
 identity_db/
+output/
+inputs/
